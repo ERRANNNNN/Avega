@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private int health = 100;
-    [SerializeField] private Text healthText;
+    [SerializeField] private TextMeshProUGUI healthText;
     public ColorBlocksPanel colorBlocksPanel;
     public WeaponShooter weaponShooter;
 
